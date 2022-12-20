@@ -1,4 +1,4 @@
-console.log("Hello World!");
+console.log("Hello World! What's up?");
 
 let button = document.querySelector(".js-button");
 let body = document.querySelector(".js-body");
