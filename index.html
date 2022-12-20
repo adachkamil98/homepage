@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil Adach - Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header>
+        <h1 class="header__title">Kamil Adach - future frontend developer</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#O-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Edukacja">Edukacja</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Zainteresowania">Zainteresowania</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Plany-i-marzenia">Plany i marzenia</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="section section--noBorder">
+            <p>
+                <button class="section__button js-button">Zmień kolor tła na <span class=" js-themeName">ciemny</span> </button>
+            </p>
+            <p>
+                <img class="section__myPhoto" src="images/IMG20220511135451.jpg"
+                    alt="Zdjęcie uśmiechniętego Kamila Adacha w czarnym golfie i okularach.">
+            </p>
+        </section>
+        <section class="section" id="O-mnie">
+            <h2 class="section__header">O mnie</h2>
+            <p>Jestem absolwentem kierunku Globalny Biznes w Szkole Głównej Handlowej w Warszawie. <br> Pozytywne
+                nastawienie do świata i ludzi powoduje, że chętnie uczę się nowych
+                rzeczy i jestem otwarty na różne doświadczenia. Swoje obowiązki
+                wykonuję <em>bardzo</em> sumiennie i z zaangażowaniem. Wciąż rozwijam swoje umiejętności oraz stale
+                zdobywam wiedzę np. z zakresu inwestycji giełdowych oraz zarządzania finansami. <br>
+                Posługuję się językiem
+                <b>angielskim</b> w stopniu
+                zaawansowanym oraz <b>niemieckim</b> i <b>hiszpańskim</b> na poziomie
+                podstawowym. Żyję w przekonaniu iż umiejętności miękkie oraz językowe są dzisiaj
+                jednymi z kluczowych atutów na rynku pracy.
+            </p>
+        </section>
+        <section class="section" id="Edukacja">
+            <h2 class="section__header">Edukacja</h2>
+            <p>Szkoła Muzyczna im. Karola Lipińskiego w Lublinie - specjalizacje: <i>Instrumenty perkusyjne,
+                    Fortepian</i>
+            </p>
+            <p>Szkoła Główna Handlowa w Warszawie - Licencjat na kierunku <i>Globalny Biznes</i> </p>
+            <p>Katolicki Uniwersytet Lubelski - rok nauki na kierunku <i>Hispanistyka</i></p>
+        </section>
+        <section class="section" id="Zainteresowania">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p>Interesuje mnie gotowanie, finanse, języki obce, gospodarka, filmy, programowanie, granie na
+                instrumentach. W wolnej chwili gram w szachy lub na <span
+                    class="section__interestingElement">Handpanie</span>.
+                <br>Kliknij w link i posłuchaj. Może Tobie też się spodoba :). <a class="section__link"
+                    href="https://www.youtube.com/watch?v=xk3BvNLeNgw" target="_blank" rel="noopener">Hang massive -
+                    Once again </a>
+                <img class="section__handpanPhoto" src="images/Handpan.jpg " alt="Muzyk grający na Handpanach">
+            <div class="section__container">
+                <table class="table">
+                    <caption class="table__caption"><b>Moje ulubione utwory</b></caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Title</th>
+                        <th class="table__cell table__cell--header" scope="col">Artist</th>
+                        <th class="table__cell table__cell--header" scope="col">Released</th>
+                        <th class="table__cell table__cell--header" scope="col">Album</th>
+                        <th class="table__cell table__cell--header" scope="col">Genres</th>
+                        <th class="table__cell table__cell--header" scope="col">Link</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header">Take five</th>
+                        <td class="table__cell">Dave Brubeck Quartet</td>
+                        <td class="table__cell">1959</td>
+                        <td class="table__cell">Time Out</td>
+                        <td class="table__cell">Jazz</td>
+                        <td class="table__cell"><a class="table__link"
+                                href="https://www.youtube.com/watch?v=vmDDOFXSgAs" target="_blank"
+                                rel="noopener">YouTube</a></td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header">No. 1 in G minor: Allegro molto</th>
+                        <td class="table__cell">Johannes Brahms</td>
+                        <td class="table__cell">1869</td>
+                        <td class="table__cell">Hungarian Dances</td>
+                        <td class="table__cell">Classical music</td>
+                        <td class="table__cell"><a class="table__link"
+                                href="https://www.youtube.com/watch?v=Pk-33ksxjg0" target="_blank" rel="
+                    noopener">YouTube</a></td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header">Subwoofer</th>
+                        <td class="table__cell">SHINSKY x DIMA</td>
+                        <td class="table__cell">2020</td>
+                        <td class="table__cell">Subwoofer</td>
+                        <td class="table__cell">Hip Hop</td>
+                        <td class="table__cell"><a class="table__link"
+                                href="https://www.youtube.com/watch?v=k4ZixMZtscc" target="_blank" rel="
+                    noopener nofollow">YouTube</a></td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header">Apocalypse</th>
+                        <td class="table__cell">Cigarettes After Sex</td>
+                        <td class="table__cell">2017</td>
+                        <td class="table__cell">Cigarettes After Sex</td>
+                        <td class="table__cell">Alternative/Indie</td>
+                        <td class="table__cell"><a class="table__link"
+                                href="https://www.youtube.com/watch?v=sElE_BfQ67s" target="_blank" rel="
+                    noopener nofollow">YouTube</a></td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header">Highway to Hell</th>
+                        <td class="table__cell">ACDC</td>
+                        <td class="table__cell">1979</td>
+                        <td class="table__cell">Highway to Hell</td>
+                        <td class="table__cell">Hard Rock, Rock & Roll, Blues Rock</td>
+                        <td class="table__cell"><a class="table__link"
+                                href="https://www.youtube.com/watch?v=l482T0yNkeo" target="_blank" rel="
+                    noopener nofollow">YouTube</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="section" id="Plany-i-marzenia">
+            <h2 class="section__header">Plany i marzenia</h2>
+            <h3 class="section__subHeader">Plany</h3>
+            <p class="section__paragraph">W ciągu najlbiższych kilku miesięcy chcę ukończyć kurs od szkoły programowania
+                YouCode i
+                zawodowo
+                zajmować się
+                Frontendem. Z tygodnia na tydzień jestem coraz bliżej celu. Gdy będę już programistą, zbuduję drugie
+                źródło
+                dochodów z wynajmu nieruchomości. Moim hobby będzie dbanie o zdrowe ciało, umysł i duszę oraz tworzenie
+                muzyki
+                na różnych instrumentach oraz z wykorzystaniem programów muzycznych. Po kilku latach programowania
+                chciałbym
+                zająć się automatyzacją procesów i rozwijać się w tym kierunku.</p>
+            <h3 class="section__subHeader">Marzenia</h3>
+            <p class="section__paragraph">Największym marzeniem, które mam od lat jest doświadczenie życia jako mieszkaniec
+                innych
+                krajów.
+                Chciałbym
+                zobaczyć jak żyje się w innej kulturze, mając inną mentalność, innych ludzi wokół siebie oraz inną
+                przyrodę.
+                Idealne byłoby spędzenie kilku lat w różnych krajach takich jak np.:
+            <ul class="section__dreamList">
+                <li><b>Szwajcaria</b></li>
+                <li><b>Hiszpania</b></li>
+                <li><b>Austria</b></li>
+                <li><b>Wielka Brytania</b></li>
+                <li><b>Włochy</b></li>
+            </ul>
+            </p>
+            <p class="section__paragraph">W dalszej przyszłości chciałbym również zobaczyć Amerykę Południową i poznać ją od środka.
+                Jednakże
+                wolałbym
+                uniknąć sytuacji typu porwanie mnie i żony w Brazylii na organy :D .
+                Patrząc 20 lat w przód, widzę siebie jako stolarza/informatyka utrzymującego swoją rodzinę z
+                działalności firmy informatycznej i zajmującego się dla przyjemności wyrobem drewnianych dzieł sztuki.
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        © Copyright 2022 by Kamil Adach - wszelkie prawa zastrzeżone
+    </footer>
+
+</body>
+
+</html>
