@@ -3,4 +3,4 @@
 ## Demo
 https://adachkamil98.github.io/homepage/
 ## Opis
-Jest to pierwsza strona, którą zrobiłem
+Jest to pierwsza strona, którą zrobiłem.
