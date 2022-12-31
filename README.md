@@ -1,5 +1,7 @@
 # Kamil Adach - homepage
+
 <img src="https://raw.githubusercontent.com/adachkamil98/homepage/main/images/IMG20220511135451.jpg" alt="Kamil Adach" width="300px" />
+
 ## Demo
 https://adachkamil98.github.io/homepage/
 ## Description
