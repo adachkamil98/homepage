@@ -4,4 +4,4 @@
 https://adachkamil98.github.io/homepage/
 
 ## Description
-It's the first page I've made by my self.
+It's the first page I've made.
