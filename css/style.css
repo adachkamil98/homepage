@@ -17,7 +17,7 @@ html {
     background-color: rgb(158, 130, 101);
 }
 
-.optionalBackgroundColor {
+.body--brighter {
     background-color: rgb(223, 214, 206);
     color: black;
 }
