@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+    max-width: 1200px;
+    padding: 0px;
+    justify-content: center;
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+}
+.flex__item {
+    flex-basis: 51%;
+    flex-grow: 1;
+}
+
+@media(max-width: 767px) {
+    .flex__item {
+        flex-basis: 100%;
+    }
+}
