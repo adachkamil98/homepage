@@ -7,7 +7,6 @@
 <https://adachkamil98.github.io/homepage/>
 
 ## How to use it?
-
 ![gif](/videos/usageDemo.gif)
 
 ## Description
