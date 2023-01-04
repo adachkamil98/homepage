@@ -9,6 +9,7 @@ html {
 .body {
     color: rgb(255, 255, 255);
     font-family: 'Source Sans Pro', sans-serif;
+    min-width: 300px;
     max-width: 1200px;
     margin: auto;
     word-spacing: 2px;
