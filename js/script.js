@@ -3,8 +3,6 @@
         console.log("Hello! What's up?")
     }
 
-    welcome();
-
     const toggleBackground = () => {
         const body = document.querySelector(".js-body");
         const anotherThemeName = document.querySelector(".js-anotherThemeName");
@@ -17,6 +15,8 @@
         const changeBackgroundColorButton = document.querySelector(".js-changeBackgroundColorButton");
 
         changeBackgroundColorButton.addEventListener("click", toggleBackground);
+    
+    welcome();
     }
     
     init();
