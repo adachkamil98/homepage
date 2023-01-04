@@ -4,5 +4,9 @@
 
 ## Demo
 https://adachkamil98.github.io/homepage/
+
+## How to use it?
+![](/videos/usageDemo.gif)
+
 ## Description
 It's the first page I've made.
